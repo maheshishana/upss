@@ -1,0 +1,1 @@
+(() => { const btn=document.getElementById('menuBtn'); const nav=document.getElementById('mainNav'); if(!btn||!nav)return; btn.addEventListener('click',()=>{const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));btn.setAttribute('aria-label',open?'मेन्यू बंद करें':'मेन्यू खोलें');btn.textContent=open?'×':'☰';}); })();

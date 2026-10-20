@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://upscholarshipstatus.co.in/sitemap.xml
